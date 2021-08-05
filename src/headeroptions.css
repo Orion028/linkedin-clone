@@ -7,3 +7,15 @@
     cursor: pointer;
 
 }
+.headerOption_title{
+    font-size: 12px;
+    font-weight: 400;
+}
+.HeaderOption:hover{
+    color: black;
+}
+.headerOption_icon{
+    object-fit: contain;
+    height: 25px;
+    width: 25px;
+}
