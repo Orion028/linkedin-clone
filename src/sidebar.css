@@ -8,6 +8,7 @@
 }
 .sidebar__avatar {
   margin-bottom: 10px;
+  border: 2px solid white;
 }
 .sidebar__top {
   display: flex;
@@ -32,6 +33,7 @@
 .sidebar__top > h4 {
   color: gray;
   font-size: 12px;
+  padding: 0 5px;
 }
 .sidebar__top > h2 {
   font-size: 18px;
@@ -49,6 +51,7 @@
 .sidebar__stats {
   padding: 10px;
   margin-bottom: 10px;
+  background-color: white;
   border: 1px solid lightgray;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -64,4 +67,26 @@
   background-color: white;
   border-radius: 10px;
   margin-top: 10px;
+}
+.sidebar__bottom > p {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.sidebar__recentItem {
+  display: flex;
+  font-size: 13px;
+  color: gray;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.sidebar__recentItem:hover {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+}
+.sidebar__hash {
+  margin: 0 10px 0 5px;
 }
